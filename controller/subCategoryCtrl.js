@@ -15,9 +15,7 @@ const createSubCategory = async (req, res) => {
         res.send({ message: "Invalid seller" });
       } else {
         // find sub_category
-        const subcategory = await SubCategory.findOne({
-          sub_category: req.body.sub_category,
-        });
+        const subcategory = await SubCategory.findOne({ name: req.body.name });
         if (!subcategory) {
           // create sub_category
           const data = await SubCategory.create(req.body);
