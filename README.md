@@ -6,6 +6,8 @@
 ## 3)Business name
 ## 4)Password
 ## 5)Confirm password
+## 6)Add store info (address, gst, logo, store timings)
+## 7)Add Category, Sub Category
 
 # Installation
 $ npm install
