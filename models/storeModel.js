@@ -13,7 +13,7 @@ const storeSchema = new mongoose.Schema(
     },
     logo: {
       type: String,
-      required: true,
+      // required: true,
     },
     storeTimings: {
       type: String,
