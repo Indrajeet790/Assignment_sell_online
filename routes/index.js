@@ -12,6 +12,6 @@ router.use("/sub_category", require("./subCategoryRoutes"));
 // category routes
 router.use("/category", require("./categoryRoutes"));
 // Inventory routes
-// router.use("/inventory", require("./inventoryRoutes"));
+router.use("/inventory", require("./inventoryRoutes"));
 
 module.exports = router;

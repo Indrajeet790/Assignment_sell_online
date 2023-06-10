@@ -1,6 +1,7 @@
 const Inventory = require("../models/inventoryModel");
 const Category = require("../models/categoryModel");
 const SubCategory = require("../models/subCategoryModel");
+const auth=require("../middleware/auth")
 const jwt = require("jsonwebtoken");
 let secretKey = "Secret";
 
